@@ -1,0 +1,136 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.log_box {
+    width: 150%;
+    height: 40em;
+    background-color:#3E3E3E;
+    display: grid;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+    border-radius:2em;
+   
+}
+
+
+    .log_box input {
+        background-color: #3E3E3E;
+        border: white solid 2px;
+        border-radius: 2em;
+        height: 3em;
+        width: 20vw;
+        color: white;
+        margin-top: 5%;
+        transition: all 0.3s linear;
+    }
+
+    .log_box label {
+        margin-top: 5%;
+        text-align: left;
+        height: 50%;
+    }
+
+.p_one {
+    display: flex;
+    align-items: center;
+}
+
+.bt {
+    background-color: #3E3E3E;
+    border: white solid 2px;
+    border-radius: 2em;
+    height: 3em;
+    width: 20vw;
+    margin-top: 5%;
+    transition: all 0.3s linear;
+    transition: width 0.2s step-end !important;
+    color: white;
+}
+
+    .bt:focus {
+        background-color: gray;
+        height: 2em;
+        width: 10vw;
+        transition: width 0.2s step-end !important;
+        transform: translate(2%, 0px) skew(63deg, -5deg);
+    }
+
+.log_box input:focus {
+    transition: all 0.3s linear;
+    background-color: #5c5c5c33;
+}

@@ -1,0 +1,25 @@
+﻿@model Form.Models.PAdd
+
+
+
+
+@{
+    ViewData["Title"] = "Rejestracja";
+}
+
+<h1>Formularz</h1>
+
+@using (Html.BeginForm("Add", "DataAdd", FormMethod.Post))
+{
+    <section class="box">
+        <section class="form-box">
+            <section class="log_box">
+                <label><label class="p_one">Imie</label>@Html.TextBoxFor(x => x.name)</label>
+                <label><label class ="p_one">Nazwisko</label>@Html.TextBoxFor(x => x.surname)</label>
+                <label><label class ="p_one">Email</label>@Html.TextBoxFor(x => x.email)</label>
+                <labal><label class ="p_one">Hasło</label>@Html.TextBoxFor(x => x.password)</labal> <br />
+                <input type="submit" class="bt" value="Zarejestruj">
+            </section>
+        </section>
+    </section>
+}
